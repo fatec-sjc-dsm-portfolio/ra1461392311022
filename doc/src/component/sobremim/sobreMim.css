@@ -1,0 +1,239 @@
+/* CSS para o body */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 5%;
+}
+
+.content3 {
+  margin-top: 5%;
+    width: 100%;
+    max-width: 800px; 
+}
+  
+  .escolaridade,
+  .profissional,
+  .pessoal,
+  .projetos {
+    margin-bottom: 30px;
+    width: 70vw;
+  }
+  
+  .pessoal {
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .pessoal h2{
+    text-align: center;
+    margin-top: 3%;
+  }
+  
+  .colunas {
+    display: flex;
+    justify-content: center; /* Centraliza as colunas horizontalmente */
+    margin-top: 20px; /* Espaçamento entre o h2 e as colunas */
+  }
+  
+  .coluna1, .coluna2{
+    flex: 1;
+    margin: 0 5px; /* Espaçamento entre as colunas */
+    max-width: 50%; /* Largura máxima das colunas */
+    text-align: left; /* Ajusta o texto para a esquerda */
+  }
+
+  .coluna2 h2{
+    margin-bottom: 5%;
+    margin-top: 0;
+  }
+  
+  .coluna2 .imagens {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%; 
+    margin: auto;
+  }
+
+  .coluna2 .imagens .imagem-container {
+    text-align: center;
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .coluna2 .imagens .imagem-container2 {
+    text-align: center;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .coluna2 .imagens .imagem-container a,.coluna2 .imagens .imagem-container2 a {
+      text-decoration: none;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  .coluna2 .imagens .imagem-container img,.coluna2 .imagens .imagem-container2 img{
+    margin-left: 0%;
+}
+  
+  .coluna2 .imagens .imagem-container img,.coluna2 .imagens .imagem-container2 img {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin-bottom: 5px; 
+  }
+  
+  .coluna2 .imagens .imagem-container p,.coluna2 .imagens .imagem-container2 p {
+    margin: 0; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .imagem-carousel {
+    width: 200px;
+    height: auto; 
+}
+  
+  .mais i{
+    color: gray;
+  }
+
+  @media screen and (max-width:600px) {
+    .container3{
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 2%;
+      margin-left: 7%;
+      justify-content: center;
+      align-items: center;
+      overflow:hidden;
+    }
+
+    .content3{
+      width: 100%;
+    }
+
+    .escolaridade{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    .cursos{
+      width: 100%;
+    }
+
+    .pessoal{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+    }
+
+    .colunas{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      margin-bottom: 3%;
+    }
+
+    .hobbies,.filmes-series{
+      width: 130%;
+      margin-bottom: 3%;
+    }
+    .hobbies h3,.filmes-series h3{
+      width: 100%;
+      margin-bottom: 4%;
+    }
+  
+    .coluna1{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 5%;
+    }
+
+    .coluna2{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: auto;
+      padding: auto;
+    }
+
+    .coluna2 h2{
+      width: 100vw;
+    }
+
+    .coluna2 .imagens {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      padding: auto;
+    }
+
+    .coluna2 .imagens .imagem-container2, .coluna2 .imagens .imagem-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 5% 0;
+    }
+
+    .coluna2 .imagens .imagem-container2 img, .coluna2 .imagens .imagem-container img{
+      width: 40vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: auto;
+      margin: auto;
+    }
+
+    .imagem-carousel {
+      width: 85%;
+    }
+
+    .livros{
+      margin-bottom:5%;
+    }
+
+    .livros h1{
+      margin-bottom:5%;
+    }
+
+    .mais{
+      margin-bottom: 10%;
+    }
+
+  }
