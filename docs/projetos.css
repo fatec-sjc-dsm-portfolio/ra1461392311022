@@ -3,7 +3,7 @@ h1,h5{
 }
 
 .container1{
-margin-top: 5%;
+margin: 5%;
 }
 
 .container1, .content1{
@@ -177,6 +177,13 @@ div.collapse.navbar-collapse {
     border-top: 3px solid #dcdcdc;
     justify-content: center;
     align-items: center;
+}
+
+.custom-footer section a {
+  margin: 0 15px;   /* espaçamento lateral */
+  text-decoration: none; /* remove underline se quiser */
+  font-weight: 500; /* opcional: deixa mais bonito */
+  color: inherit;   /* mantém a cor do footer */
 }
 
 .text-center.pt-4 a {

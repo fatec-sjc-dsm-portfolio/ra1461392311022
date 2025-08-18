@@ -6,6 +6,15 @@ body {
     padding: 0;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0,0,0,0.5); /* seta escura */
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-size: 60% 60%;
+}
+
 .container3 {
     display: flex;
     flex-direction: column;
@@ -265,6 +274,14 @@ footer {
     transition: background-color 0.3s, color 0.3s;
     padding: 1rem;
 }
+
+.custom-footer section a {
+  margin: 0 15px;   /* espaçamento lateral */
+  text-decoration: none; /* remove underline se quiser */
+  font-weight: 500; /* opcional: deixa mais bonito */
+  color: inherit;   /* mantém a cor do footer */
+}
+
 
 .dark-mode .custom-footer {
     background-color: #1a1919; 

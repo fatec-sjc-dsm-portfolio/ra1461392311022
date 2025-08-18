@@ -99,9 +99,7 @@ nav.navbar {
   padding-left: 0;
 }
 
-div.collapse.navbar-collapse {
-  width: 100%;
-}
+.navbar-toggler { position: relative; z-index: 1051; }
 
 .darkMode{
   display: flex;
@@ -207,6 +205,14 @@ div.collapse.navbar-collapse {
     align-items: center;
 }
 
+.custom-footer section a {
+  margin: 0 15px;   /* espaçamento lateral */
+  text-decoration: none; /* remove underline se quiser */
+  font-weight: 500; /* opcional: deixa mais bonito */
+  color: inherit;   /* mantém a cor do footer */
+}
+
+
 .text-center.pt-4 a {
     color: inherit;
 }
@@ -261,6 +267,15 @@ div.container {
 }
 
 @media screen and (max-width: 600px){
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0; right: 0;
+    background: #f8f9fa; /* combine com sua navbar */
+    padding: .5rem 1rem;
+    border-top: 1px solid rgba(0,0,0,.05);
+  }
+  
   .navbar-collapse.custom-collapse {
     justify-content: center;
     text-align: center;
