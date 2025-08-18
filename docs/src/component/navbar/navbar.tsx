@@ -7,7 +7,7 @@ export default function Header() {
     return (
         <Navbar collapseOnSelect expand="lg" className="navbar">
             <Navbar.Brand href="/">
-                <img src="/imgs/logo.jpg" alt="Seu Logo" className="logo"/>
+                <img src="%PUBLIC_URL%/imgs/logo.jpg" alt="Seu Logo" className="logo"/>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" className='custom-toggle'/>
             <Navbar.Collapse id="responsive-navbar-nav" className="custom-collapse">

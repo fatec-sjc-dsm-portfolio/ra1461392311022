@@ -117,13 +117,13 @@ export default function SobreMim(){
                                     <div className="imagens">
                                         <div className="imagem-container">
                                             <a href="https://open.spotify.com/playlist/2SXO4DF0ROudOQIr0T91Eb?si=7d5226382e8b4f93" target="_blank">
-                                                <img src="/imgs/playlist1.png" alt="Imagem 1" />
+                                                <img src="%PUBLIC_URL%/imgs/playlist1.png" alt="Imagem 1" />
                                                 <p>Acesse <u>aqui</u></p>
                                             </a>
                                         </div>
                                         <div className="imagem-container2">
                                             <a href="https://open.spotify.com/playlist/2Fgoq3r1sVrzOySlRvtV2h?si=6e6899770e854207" target="_blank">
-                                                <img src="/imgs/playlist2.png" alt="Imagem 2" />
+                                                <img src="%PUBLIC_URL%/imgs/playlist2.png" alt="Imagem 2" />
                                                 <p>Acesse <u>aqui</u></p>
                                             </a>
                                         </div>
@@ -136,43 +136,43 @@ export default function SobreMim(){
                         <h1>Meus livros preferidos:</h1>
                         <Slider ref={sliderRef} {...settings}>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/Bem-vindos à livraria Hyunam-dong.jpg" alt="Livro 1" />
+                                <img className="imagem-carousel" src="%PUBLIC_URL%/imgs/livros/Bem-vindos à livraria Hyunam-dong.jpg" alt="Livro 1" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/toda-luz.jpg" alt="Livro 2" />
+                                <img className="imagem-carousel" src="%PUBLIC_URL%/imgs/livros/toda-luz.jpg" alt="Livro 2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/é assim que começa.jpg" alt="livro2" />
+                                <img className="imagem-carousel" src="%PUBLIC_URL%/imgs/livros/é assim que começa.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/É Assim que Acaba.jpg" alt="livro2" />
+                                <img className="imagem-carousel" src="%PUBLIC_URL%/imgs/livros/É Assim que Acaba.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/A paciente silenciosa.jpg" alt="livro2" />
+                                <img className="imagem-carousel" src="%PUBLIC_URL%/imgs/livros/A paciente silenciosa.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/Luzes do Leste.jpg" alt="livro2" />
+                                <img className="imagem-carousel" src="%PUBLIC_URL%/imgs/livros/Luzes do Leste.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/Ondas do Oeste.jpg" alt="livro2" />
+                                <img className="imagem-carousel" src="%PUBLIC_URL%/imgs/livros/Ondas do Oeste.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/quatro tias e um casamento.jpg" alt="livro2" />
+                                <img className="imagem-carousel" src="%PUBLIC_URL%/imgs/livros/quatro tias e um casamento.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/A Hipótese do Amor.jpg" alt="livro2" />
+                                <img className="imagem-carousel" src="%PUBLIC_URL%/imgs/livros/A Hipótese do Amor.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/anne de green gables.jpg" alt="livro2" />
+                                <img className="imagem-carousel" src="%PUBLIC_URL%/imgs/livros/anne de green gables.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/O príncipe cruel capa.jpg" alt="livro2" />
+                                <img className="imagem-carousel" src="%PUBLIC_URL%/imgs/livros/O príncipe cruel capa.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/boneco de neve.jpg" alt="livro2" />
+                                <img className="imagem-carousel" src="%PUBLIC_URL%/imgs/livros/boneco de neve.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/O ódio que você semeia.jpg" alt="livro2" />
+                                <img className="imagem-carousel" src="%PUBLIC_URL%/imgs/livros/O ódio que você semeia.jpg" alt="livro2" />
                             </div>
                         </Slider>
                     </div>

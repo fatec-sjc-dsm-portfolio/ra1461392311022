@@ -40,7 +40,7 @@ export default function Home() {
             E eu <span className="palavras">{currentWord}</span>
           </h3>
         </div>
-        <img src="/imgs/eu.jpg" alt="Profile" className="profile-pic" />
+        <img src="%PUBLIC_URL%/imgs/eu.jpg" alt="Profile" className="profile-pic" />
       </div>
 
       <div className='container'>
@@ -63,7 +63,7 @@ export default function Home() {
             </p>
           </div>
           <div className='coluna2'>
-            <img src="/imgs/foto-profile.jpg"></img>
+            <img src="%PUBLIC_URL%/imgs/foto-profile.jpg"></img>
           </div>
         </div>
       </div>

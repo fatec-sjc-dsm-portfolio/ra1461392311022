@@ -39,7 +39,7 @@ export default function Projetos(){
     const projects: Project[] = [
         {
             title: "API 1° semestre - Covidinho",
-            image: "/imgs/projetos/api-1semestre.png",
+            image: "%PUBLIC_URL%/imgs/projetos/api-1semestre.png",
             description: "API do 1° semestre de DSM de 2023 sobre a Covid Longa.",
             sobre: `Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° semestre de Desenvolvimento de 
             Software Multiplataforma (DSM) em parceria com a Vanguarda sobre dados relacionados à covid longa no Vale do Paraíba 
