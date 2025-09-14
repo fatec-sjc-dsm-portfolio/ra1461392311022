@@ -2,7 +2,7 @@
 const projects = [
   {
     title: "API 1° semestre - Covidinho",
-    image: "./public/imgs/projetos/api-1semestre.png",
+    image: "./public./public/imgs/projetos/api-1semestre.png",
     description: "API do 1° semestre de DSM de 2023 sobre a Covid Longa.",
     sobre: `Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° semestre de  Desenvolvimento de 
         Software Multiplataforma (DSM) em parceria com a Vanguarda sobre dados relacionados à covid longa no Vale do Paraíba 
@@ -35,7 +35,7 @@ const projects = [
           },
           {
             title: "API 2° semestre - Callnet",
-            image: "/imgs/projetos/api-2semestre.png",
+            image: "./public/imgs/projetos/api-2semestre.png",
             description: "API do 2° semestre de DSM de 2023 sobre um sistema de gerenciamento de chamadas",
             sobre: `Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 2° semestre de Desenvolvimento 
             de Software Multiplataforma (DSM). O projeto se refere à um sistema de Gestão de Chamadas de Serviço. 
@@ -60,7 +60,7 @@ const projects = [
         },
         {
             title: "API 3° semestre - Youtan",
-            image: "/imgs/projetos/youtan.png",
+            image: "./public/imgs/projetos/youtan.png",
             description: "API do 3° semestre de DSM de 2024 sobre um sistema de gerenciamento de ativos",
             sobre: `Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 3° semestre de Desenvolvimento de 
             Software Multiplataforma (DSM). O objetivo do projeto é o desenvlvimento de uma solução para o gerenciamento de ativos 
@@ -83,7 +83,7 @@ const projects = [
         },
         {
             title: "API 4° semestre - Tecsus",
-            image: "/imgs/projetos/api-4semestre.png",
+            image: "./public/imgs/projetos/api-4semestre.png",
             description: "API do 3° semestre de DSM de 2024 sobre um sistema de coleta de dados de uma estação metereológica",
             sobre: `Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 4° semestre de Desenvolvimento de Software Multiplataforma (DSM). 
             O objetivo do projeto é o desenvolvimento de um sistema de coleta de dados de estações meteorológicas. A plataforma deve receber as informações da estação metereológica e em caso de emergência mostrar uma notificação alertando a população.` ,
@@ -98,7 +98,7 @@ const projects = [
         },
         {
           title: "API 5° semestre - Tecsus",
-          image: "/imgs/projetos/api-5semestre.png",
+          image: "./public/imgs/projetos/api-5semestre.png",
           description: "API do 5° semestre de DSM (2024) sobre um sistema para criação e gerenciamento de agentes de inteligência artificial voltados ao atendimento interno.",
           sobre: `Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 5° semestre de Desenvolvimento de Software Multiplataforma (DSM). 
           O objetivo do projeto foi criar uma plataforma para o gerenciamento de agentes de inteligência artificial destinados ao atendimento interno. 
@@ -125,7 +125,7 @@ const projects = [
         },
         {
             title: 'Meu Portfólio',
-            image:'/imgs/projetos/portfolio.png',
+            image:'./public/imgs/projetos/portfolio.png',
             description:'Meu portfólio pessoal',
             sobre:`Este projeto tem por objetivo apresentar todos os trabalhos desenvolvidos por mim ao longo do período da fatec, 
             além de contar com algumas informações pessoais e acadêmicas.`,
@@ -139,7 +139,7 @@ const projects = [
         },
         {
             title: 'Grupo World Beauty',
-            image:'/imgs/projetos/wb.png',
+            image:'./public/imgs/projetos/wb.png',
             description:'Site gerenciador de lojas do grupo World Beauty',
             sobre:` Este é um sistema de gestão desenvolvido para gerenciar um grupo que possui um modelo de negócio focado em pequenas 
             unidades espalhadas por várias cidades no país. O projeto foi desenvolvido em várias iterações.
@@ -154,7 +154,7 @@ const projects = [
         },
         {
             title: 'Atlantis',
-            image:'/imgs/projetos/atlantis.jpg',
+            image:'./public/imgs/projetos/atlantis.jpg',
             description:'Site gerenciador de um parque aquático fictício',
             sobre:`O Sistema de Gestão Atlantis foi desenvolvido para atender uma empresa com um modelo de negócio baseado em pequenas unidades distribuídas por várias 
             cidades no país. O projeto passou por várias iterações de desenvolvimento.
@@ -171,7 +171,7 @@ const projects = [
         },
         {
             title: 'AutoBots',
-            image:'/imgs/projetos/autobots.png',
+            image:'./public/imgs/projetos/autobots.png',
             description:'Site para gerenciar uma startup fictícia',
             sobre:`O AutoBots é um sistema projetado para otimizar operações, melhorar a eficiência e impulsionar as vendas da startup AutoBots. 
             Ele visa aprimorar os processos internos e aumentar a produtividade da organização.`,
@@ -185,7 +185,7 @@ const projects = [
         },
         {
             title: 'LiFin',
-            image: '/imgs/projetos/Lifin.png',
+            image: './public/imgs/projetos/Lifin.png',
             description: 'App mobile de finanças pessoais',
             sobre: `LiFin é um aplicativo de finanças pessoais, projetado para tornar a gestão do dinheiro do usuário fácil e perspicaz. 
                     Com uma interface elegante e recursos poderosos, o LiFin ajuda a rastrear despesas, gerenciar orçamentos e alcançar suas metas financeiras.`,
@@ -199,7 +199,7 @@ const projects = [
         },
         {
             title: 'Relógio',
-            image:'/imgs/projetos/relogio-python.png',
+            image:'./public/imgs/projetos/relogio-python.png',
             description:'Repositório do Widget de um relógio digital desenvolvido em Python Tkinter',
             sobre:`Este projeto pessoal foi desenvolvido utilizando python de forma a criar um widget de um relógio que pega o nome do seu usuário do computador 
             e imprime-o juntamente com as boas vindas, a data e hora. Também é possível trocar o tema para a versão clara clicando no icon da lua.`,
@@ -212,7 +212,7 @@ const projects = [
         },
         {
             title: 'Projeto Unes ',
-            image:'/imgs/projetos/unes-projeto.png',
+            image:'./public/imgs/projetos/unes-projeto.png',
             description:'Site Web para por em prática meus conhecimentos',
             sobre:`Projeto desenvolvido para uma universidade fictícia com o objetivo de aprender o básico de desenvolvimento Web usando o framework Flask com as linguagens e 
             markdowns: mysql, python, html e css.`,
