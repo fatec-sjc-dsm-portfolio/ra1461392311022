@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "API 1° semestre - Covidinho",
-    image: "./public/imgs/projetos/api-1semestre.png",
+    image: "/imgs/projetos/api-1semestre.png",
     description: "API do 1° semestre de DSM de 2023 sobre a Covid Longa.",
     sobre: `Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° semestre de  Desenvolvimento de 
         Software Multiplataforma (DSM) em parceria com a Vanguarda sobre dados relacionados à covid longa no Vale do Paraíba 
