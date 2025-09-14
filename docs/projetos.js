@@ -4,36 +4,36 @@ const projects = [
     title: "API 1° semestre - Covidinho",
     image: "./public/imgs/projetos/api-1semestre.png",
     description: "API do 1° semestre de DSM de 2023 sobre a Covid Longa.",
-    sobre: `Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° semestre de Desenvolvimento de 
-Software Multiplataforma (DSM) em parceria com a Vanguarda sobre dados relacionados à covid longa no Vale do Paraíba 
-para um site de uso jornalístico.
+    sobre: `Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° semestre de  Desenvolvimento de 
+        Software Multiplataforma (DSM) em parceria com a Vanguarda sobre dados relacionados à covid longa no Vale do Paraíba 
+        para um site de uso jornalístico.
 
-Nosso projeto consiste em um site focado em dados relacionados a Covid-19, seus efeitos e seus sintômas prolongados, 
-ou Covid longa de acordo com a Organização Mundial da Saúde (OMS). Este projeto é destinado à usuários jornalistas 
-da rede Vanguarda com a necessidade de um site de fácil acesso à dados e informações sobre a Covid longa na região 
-do Vale do Paraíba, visando criar novas matérias para o jornal.`,
-    technologies: [
-      "Figma", "GitHub", "Trello", "Chart.js", "HTML5", "CSS3", "Python", "JavaScript", "MySQL"
-    ],
-    link: 'https://github.com/Equipe-01-DSM-2023/API-2023.1',
-    hardSkil: [
-      'Manipulação de dados com Python',
-      'Criação dos gráficos com JavaScript',
-      'Estilização com HTML',
-      'Estilização com CSS',
-      'Criação do banco de dados e armazenamento de dados com o MySQL'
-    ],
-    softSkil: [
-      'Trabalho em equipe', 'Comunicação', 'Proatividade', 'Autonomia',
-      'Entrega de Resultados', 'Adaptabilidade', 'Flexibilidade'
-    ],
-    contribuicoesPessoais: `Neste projeto, atuei como membro da equipe de desenvolvimento seguindo a metodologia Scrum. Contribuí 
-    no desenvolvimento tanto do front-end quanto do back-end. Além disso, realizei a manipulação de dados obtidos através da 
-    raspagem do site DataSusTabnet, integrando-os aos gráficos que desenvolvi, a fim de facilitar a visualização e interpretação dessas 
-    informações. 
-    Participei também das etapas de pesquisa e coleta de dados para a execução do nosso projeto.`
-  },
-  {
+        Nosso projeto consiste em um site focado em dados relacionados a Covid-19, seus efeitos e seus sintômas prolongados, 
+        ou Covid longa de acordo com a Organização Mundial da Saúde (OMS). Este projeto é destinado à usuários jornalistas 
+        da rede Vanguarda com a necessidade de um site de fácil acesso à dados e informações sobre a Covid longa na região 
+        do Vale do Paraíba, visando criar novas matérias para o jornal.`,
+            technologies: [
+              "Figma", "GitHub", "Trello", "Chart.js", "HTML5", "CSS3", "Python", "JavaScript", "MySQL"
+            ],
+            link: 'https://github.com/Equipe-01-DSM-2023/API-2023.1',
+            hardSkil: [
+              'Manipulação de dados com Python',
+              'Criação dos gráficos com JavaScript',
+              'Estilização com HTML',
+              'Estilização com CSS',
+              'Criação do banco de dados e armazenamento de dados com o MySQL'
+            ],
+            softSkil: [
+              'Trabalho em equipe', 'Comunicação', 'Proatividade', 'Autonomia',
+              'Entrega de Resultados', 'Adaptabilidade', 'Flexibilidade'
+            ],
+            contribuicoesPessoais: `Neste projeto, atuei como membro da equipe de desenvolvimento seguindo a metodologia Scrum. Contribuí 
+            no desenvolvimento tanto do front-end quanto do back-end. Além disso, realizei a manipulação de dados obtidos através da 
+            raspagem do site DataSusTabnet, integrando-os aos gráficos que desenvolvi, a fim de facilitar a visualização e interpretação dessas 
+            informações. 
+            Participei também das etapas de pesquisa e coleta de dados para a execução do nosso projeto.`
+          },
+          {
             title: "API 2° semestre - Callnet",
             image: "/imgs/projetos/api-2semestre.png",
             description: "API do 2° semestre de DSM de 2023 sobre um sistema de gerenciamento de chamadas",
@@ -45,7 +45,7 @@ do Vale do Paraíba, visando criar novas matérias para o jornal.`,
             O sistema desenvolvido, chamado CallNet, é focado em fornecer auxílio aos problemas relacionados a Internet Fixa, 
             e busca aprimorar o sistema de Gerenciamento de Chamadas de Serviço. Nosso objetivo é que nossos clientes tenham 
             acesso à soluções de seus problemas sobre Internet, de forma mais rápida e eficaz.` ,
-            technologies: [faFigma, faJira, faSlack, faReact, faNodeJs, faJs, faHtml5, faCss3Alt,TypeScriptIcon,Mysql],
+            technologies: ["Figma", "Jira", "Slack", "React", "NodeJs", "JavaScript", "Html5", "Css3", "TypeScript", "Mysql"],
             link:'https://github.com/Equipe-CodeLand/API-2023.2',
             hardSkil: ['Desenvolvimento Front-End em React, Node.js, HTML e CSS','Desenvolvimento do Back-End em TypeScript e JavaScript', 
                 'Banco de dados desenvolvido no MySQL'
@@ -70,7 +70,7 @@ do Vale do Paraíba, visando criar novas matérias para o jornal.`,
             O objetivo do projeto é o desenvovimento de uma solução para o gerenciamento de ativos de uma empresa. A plataforma deve 
             conter informações detalhadas sobre ativos, cadastro e histórico de manutenções dos ativos e dashboard com indicativos 
             relevantes sobre os ativos.` ,
-            technologies: [faFigma, faJira, faSlack, faGithub, faReact, faJava, SpringBootIcon, faNodeJs, faHtml5, faCss3Alt,TypeScriptIcon,Mysql],
+            technologies: ["Figma", "Jira", "Slack", "Github", "React", "Java", "SpringBoot", "NodeJs", "Html5", "Css3", "TypeScript", "Mysql"],
             link:'https://github.com/Equipe-CodeLand/API-2024.1',
             hardSkil: ['Desenvolvimento Front-End em React, Node.js, HTML e CSS','Desenvolvimento do Back-End em Java, SpringBoot e MySQL'],
             softSkil: ['Trabalho em equipe', 'Comunicação', 'Proatividade', 'Autonomia', 'Entrega de Resultados','Adaptabilidade', 'Flexibilidade', 
@@ -87,7 +87,7 @@ do Vale do Paraíba, visando criar novas matérias para o jornal.`,
             description: "API do 3° semestre de DSM de 2024 sobre um sistema de coleta de dados de uma estação metereológica",
             sobre: `Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 4° semestre de Desenvolvimento de Software Multiplataforma (DSM). 
             O objetivo do projeto é o desenvolvimento de um sistema de coleta de dados de estações meteorológicas. A plataforma deve receber as informações da estação metereológica e em caso de emergência mostrar uma notificação alertando a população.` ,
-            technologies: [faFigma, faJira, faPython, SiFirebase, SiDocker, faGithub, faReact,  faNodeJs, faHtml5, faCss3Alt,TypeScriptIcon],
+            technologies: ["Figma", "Jira", "Python", "Firebase", "Docker", "Github", "React", "NodeJs", "Html5", "Css3", "TypeScript"],
             link:'https://github.com/Equipe-CodeLand/API-2024.2',
             hardSkil: ['Desenvolvimento Front-End em React, Node.js, HTML, CSS, TypeScript, Jest','Desenvolvimento do Back-End em TypeScript, Python, Firebase, Docker, Jest'],
             softSkil: ['Trabalho em equipe', 'Comunicação', 'Proatividade', 'Autonomia', 'Entrega de Resultados','Adaptabilidade', 'Flexibilidade', 
@@ -104,7 +104,7 @@ do Vale do Paraíba, visando criar novas matérias para o jornal.`,
           O objetivo do projeto foi criar uma plataforma para o gerenciamento de agentes de inteligência artificial destinados ao atendimento interno. 
           A aplicação permite que usuários enviem mensagens e interajam com esses agentes por meio de um chat inteligente. 
           `,
-          technologies: [faFigma, faJira, faPython, SiFirebase, SiDocker, faGithub, faReact, faNodeJs, faHtml5, faCss3Alt, TypeScriptIcon],
+          technologies: ["Figma", "Jira", "Python", "Firebase", "Github", "React", "NodeJs", "Html5", "Css3", "TypeScript"],
           link: "https://github.com/Equipe-CodeLand/API-2025.1",
           hardSkil: [
             "Desenvolvimento Front-End em React, Node.js, HTML, CSS, TypeScript, Jest",
@@ -129,7 +129,7 @@ do Vale do Paraíba, visando criar novas matérias para o jornal.`,
             description:'Meu portfólio pessoal',
             sobre:`Este projeto tem por objetivo apresentar todos os trabalhos desenvolvidos por mim ao longo do período da fatec, 
             além de contar com algumas informações pessoais e acadêmicas.`,
-            technologies:[faReact,TypeScriptIcon, faHtml5,faCss3Alt],
+            technologies:["React", "TypeScript", "Html5", "Css3"],
             link:'https://github.com/leticiacarvalho04/Portfolio',
             hardSkil: ['Desenvolvimento do front-end em React usando TypeScript, HTML e CSS'],
             softSkil: ['Proatividade', 'Organização e planejamento', 'Autonomia'],
@@ -146,7 +146,7 @@ do Vale do Paraíba, visando criar novas matérias para o jornal.`,
             
             O WB é um sistema abrangente projetado para ajudar o Grupo World Beauty na organização e gerenciamento de suas pequenas unidades 
             espalhadas pelas várias cidades no país. Ele abrange desde o gerenciamento dos produtos e serviços prestados até o gerenciamento destes e do cliente.`,
-            technologies:[SiPrisma, faReact, TypeScriptIcon, faHtml5,faCss3Alt, faNodeJs],
+            technologies:["Prisma", "React", "TypeScript", "Html5", "Css3", "NodeJs"],
             link:'https://github.com/leticiacarvalho04/WB',
             hardSkil: ['Desenvolvimento front-end em React TypeScript, HTML e CSS', 'Desenvolvimento do back-end em TypeScript, Node.js e Prisma'],
             softSkil: ['Trabalho em equipe', 'Comunicação', 'Proatividade', 'Autonomia', 'Entrega de Resultados'],
@@ -161,7 +161,7 @@ do Vale do Paraíba, visando criar novas matérias para o jornal.`,
             
             O Atlantis foi criado para gerenciar o cadastro de clientes de um parque aquático e uma rede hoteleira. Ele oferece funcionalidades completas para o CRUD 
             (Create, Read, Update, Delete) de clientes titulares, clientes dependentes e acomodações.`,
-            technologies:[faReact,TypeScriptIcon, faHtml5,faCss3Alt, faNodeJs],
+            technologies:["React", "TypeScript", "Html5", "Css3", "NodeJs"],
             link:'https://github.com/leticiacarvalho04/Atlantis',
             hardSkil: ['Desenvolvimento Front-End em React TypeScript, HTML e CSS', 'Desenvolvimento do Back-End em TypeScript e Node.js'],
             softSkil: ['Proatividade', 'Organização e planejamento', 'Autonomia', 'Autogestão', 'Entrega de resultados'],
@@ -175,7 +175,7 @@ do Vale do Paraíba, visando criar novas matérias para o jornal.`,
             description:'Site para gerenciar uma startup fictícia',
             sobre:`O AutoBots é um sistema projetado para otimizar operações, melhorar a eficiência e impulsionar as vendas da startup AutoBots. 
             Ele visa aprimorar os processos internos e aumentar a produtividade da organização.`,
-            technologies:[faJava, SpringBootIcon],
+            technologies:["Java", "SpringBoot"],
             link:'https://github.com/leticiacarvalho04/Autobots',
             hardSkil: ['Desenvolvimento em Java e Spring Boot'],
             softSkil: ['Proatividade', 'Organização e planejamento', 'Autonomia'],
@@ -189,7 +189,7 @@ do Vale do Paraíba, visando criar novas matérias para o jornal.`,
             description: 'App mobile de finanças pessoais',
             sobre: `LiFin é um aplicativo de finanças pessoais, projetado para tornar a gestão do dinheiro do usuário fácil e perspicaz. 
                     Com uma interface elegante e recursos poderosos, o LiFin ajuda a rastrear despesas, gerenciar orçamentos e alcançar suas metas financeiras.`,
-            technologies: [faReact, TypeScriptIcon, SiFirebase, SiExpo],
+            technologies: ["React", "TypeScript", "Firebase", "Expo"],
             link: 'https://github.com/leticiacarvalho04/LiFin',
             hardSkil: ['Desenvolvimento em React Native', 'TypeScript', 'Firebase', 'Expo'],
             softSkil: ['Proatividade', 'Organização e planejamento', 'Autonomia'],
@@ -203,7 +203,7 @@ do Vale do Paraíba, visando criar novas matérias para o jornal.`,
             description:'Repositório do Widget de um relógio digital desenvolvido em Python Tkinter',
             sobre:`Este projeto pessoal foi desenvolvido utilizando python de forma a criar um widget de um relógio que pega o nome do seu usuário do computador 
             e imprime-o juntamente com as boas vindas, a data e hora. Também é possível trocar o tema para a versão clara clicando no icon da lua.`,
-            technologies:[faPython],
+            technologies:["Python"],
             link:'https://github.com/leticiacarvalho04/Relogio.py',
             hardSkil: ['Desenvolvimento em Python'],
             softSkil: ['Proatividade', 'Autonomia'],
@@ -216,7 +216,7 @@ do Vale do Paraíba, visando criar novas matérias para o jornal.`,
             description:'Site Web para por em prática meus conhecimentos',
             sobre:`Projeto desenvolvido para uma universidade fictícia com o objetivo de aprender o básico de desenvolvimento Web usando o framework Flask com as linguagens e 
             markdowns: mysql, python, html e css.`,
-            technologies:[SiFlask, faHtml5,faCss3Alt, faPython, Mysql],
+            technologies:["Flask", "Html5", "Css3", "Python", "Mysql"],
             link:'https://github.com/leticiacarvalho04/Dev-Web-1-Sem',
             hardSkil: ['Desenvolvimento do Back-End em Python e MySQL', 'Desenvolvimento do Front-End em HTML, CSS e Flask'],
             softSkil: ['Proatividade', 'Autonomia'],
