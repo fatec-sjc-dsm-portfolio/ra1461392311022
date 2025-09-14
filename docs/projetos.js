@@ -2,7 +2,7 @@
 const projects = [
   {
     title: "API 1° semestre - Covidinho",
-    image: "./public./public/imgs/projetos/api-1semestre.png",
+    image: "./public/imgs/projetos/api-1semestre.png",
     description: "API do 1° semestre de DSM de 2023 sobre a Covid Longa.",
     sobre: `Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° semestre de  Desenvolvimento de 
         Software Multiplataforma (DSM) em parceria com a Vanguarda sobre dados relacionados à covid longa no Vale do Paraíba 
@@ -84,7 +84,7 @@ const projects = [
         {
             title: "API 4° semestre - Tecsus",
             image: "./public/imgs/projetos/api-4semestre.png",
-            description: "API do 3° semestre de DSM de 2024 sobre um sistema de coleta de dados de uma estação metereológica",
+            description: "API do 4° semestre de DSM de 2024 sobre um sistema de coleta de dados de uma estação metereológica",
             sobre: `Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 4° semestre de Desenvolvimento de Software Multiplataforma (DSM). 
             O objetivo do projeto é o desenvolvimento de um sistema de coleta de dados de estações meteorológicas. A plataforma deve receber as informações da estação metereológica e em caso de emergência mostrar uma notificação alertando a população.` ,
             technologies: ["Figma", "Jira", "Python", "Firebase", "Docker", "Github", "React", "NodeJs", "Html5", "Css3", "TypeScript"],
@@ -99,7 +99,7 @@ const projects = [
         {
           title: "API 5° semestre - Tecsus",
           image: "./public/imgs/projetos/api-5semestre.png",
-          description: "API do 5° semestre de DSM (2024) sobre um sistema para criação e gerenciamento de agentes de inteligência artificial voltados ao atendimento interno.",
+          description: "API do 5° semestre de DSM (2025) sobre um sistema para criação e gerenciamento de agentes de inteligência artificial voltados ao atendimento interno.",
           sobre: `Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 5° semestre de Desenvolvimento de Software Multiplataforma (DSM). 
           O objetivo do projeto foi criar uma plataforma para o gerenciamento de agentes de inteligência artificial destinados ao atendimento interno. 
           A aplicação permite que usuários enviem mensagens e interajam com esses agentes por meio de um chat inteligente. 
