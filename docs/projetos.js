@@ -1,4 +1,3 @@
-// projetos.js
 const projects = [
   {
     title: "API 1° semestre - Covidinho",
