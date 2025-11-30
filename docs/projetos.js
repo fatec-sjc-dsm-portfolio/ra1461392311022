@@ -123,6 +123,31 @@ const projects = [
           contribuicoesPessoais: `Minha participação no projeto envolveu o desenvolvimento de toda a parte do sistema que não estava relacionada diretamente à IA, atuando tanto no backend quanto no frontend.`
         },
         {
+          title: "API 6° semestre - DomRock",
+          image: "./public/imgs/projetos/api-6semestre.png",
+          description: "API do 6° semestre de DSM (2025) sobre um sistema de busca semântica que transforme grandes volumes de dados estruturados em relatórios e em uma interface de conversação em linguagem natural.",
+          sobre: `Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 6° semestre de Desenvolvimento de Software Multiplataforma (DSM). 
+          O objetivo do projeto foi desenvolver um sistema de busca semântica que transforme grandes volumes de dados estruturados em relatórios e em uma interface de conversação em linguagem natural. A partir de um dataset fornecido pela empresa parceira (Dom Rock), com informações diárias de vendas e movimentação de estoque desde janeiro de 2024, a solução busca facilitar a compreensão do contexto operacional da empresa, oferecendo visões executivas, gerenciais e estratégicas. Assim, gestores poderão obter análises rápidas, claras e acessíveis para apoiar a tomada de decisão. 
+          `,
+          technologies: ["Figma", "Jira", "Python", "AWS", "Github", "React", "NodeJs", "MySQL", "Css3", "TypeScript"],
+          link: "https://github.com/Equipe-CodeLand/API-2025.2",
+          hardSkil: [
+            "Desenvolvimento Front-End em React, Node.js, CSS, TypeScript",
+            "Desenvolvimento Back-End em TypeScript e Python"
+          ],
+          softSkil: [
+            "Trabalho em equipe",
+            "Comunicação",
+            "Proatividade",
+            "Autonomia",
+            "Entrega de Resultados",
+            "Adaptabilidade",
+            "Flexibilidade",
+            "Inteligência Emocional"
+          ],
+          contribuicoesPessoais: `Minha participação no projeto envolveu o desenvolvimento de toda a parte do sistema que não estava relacionada diretamente à IA, porém, desenvolvendo partes do sistema referente aos chats que usavam o PLN, como por exemplo, o histórico dos chats.`
+        },
+        {
             title: 'Meu Portfólio',
             image:'./public/imgs/projetos/portfolio.png',
             description:'Meu portfólio pessoal',
